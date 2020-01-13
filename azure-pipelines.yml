@@ -9,3 +9,9 @@ steps:
   inputs:
     filename: 'power.bat'
     arguments: '3 4'
+  displayName: power.bat  
+- task: BatchScript@1
+  inputs:
+    filename: 'calc.bat'
+    arguments: '4 2'
+  displayName: calc.bat  
